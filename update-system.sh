@@ -2,7 +2,6 @@
 
 set meta-flag on && set convert-meta off && set output-meta on #[Permet de mettre les accents]
 
-
 aptitude update
 aptitude safe-upgrade -y
 aptitude purge && aptitude autoclean
